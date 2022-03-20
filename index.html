@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Search</title>
-    </head>
-    <body>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
-    </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 兼容性视图 -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta content="百度搜索" name="description">
+  <title>search you want</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    
+    <form class="container" action="http://www.baidu.com/baidu" >
+			<input name=tn type=HIDDEN value=baidu>
+			<a href="http://www.baidu.com/"><img class="img" src="http://img.baidu.com/img/logo-80px.gif" alt="Baidu" align="bottom" border="0"></a>
+			<input class="search-input-text" title="in" id="kw" type=text name=word size=30 baiduSug=1>
+			<input class="search-input-button" type="submit" value="百度">
+            <a href="more.html"><input class="search-input-button" placeholder=" 高级搜索" ></a>
+    </form>
+</body>
+
 </html>
